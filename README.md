@@ -154,7 +154,6 @@ Released under the [MIT License](LICENSE).
 
 ## Authors
 
-- Chaon Ronjon Kormokar (2008018)
 - Md. Nazimus Sakib (2008047)
 
 Supervised by Dr. Nafis Ahmad, Professor, Department of Industrial and Production
