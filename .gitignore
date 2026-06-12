@@ -1,0 +1,30 @@
+# ---- Trained weights / runs -------------------------------------------------
+# Ultralytics output. Keep weights/best.pt tracked (see weights/.gitkeep);
+# ignore the bulky full run directories.
+runs/
+*.onnx
+*.engine
+
+# ---- Datasets ---------------------------------------------------------------
+dataset/
+dataset_clean/
+*.zip
+*.jpg
+*.jpeg
+*.png
+# (If you want to commit a few sample images, add them with: git add -f sample.jpg)
+
+# ---- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- OS / editor ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

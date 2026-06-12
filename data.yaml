@@ -1,0 +1,15 @@
+# Dataset configuration for YOLOv8 training.
+# Update `path` to point to your dataset root. The folder is expected to contain
+# images/train, images/val and the matching labels/train, labels/val directories
+# in standard YOLO format.
+
+path: ./dataset_clean      # dataset root directory
+train: images/train        # train images (relative to path)
+val: images/val            # validation images (relative to path)
+
+# Class names (order defines the class IDs used in the .txt label files)
+names:
+  0: Holes
+  1: Abrasion_Mark
+  2: Oil_Stain
+  3: Missing_Yarn

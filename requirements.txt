@@ -1,0 +1,18 @@
+# PC / host (detection + training) dependencies
+# Install with:  pip install -r requirements.txt
+#
+# PyTorch: for GPU acceleration install the CUDA build that matches your system
+# from https://pytorch.org/get-started/locally/  (the line below installs the
+# default build, which may be CPU-only).
+
+ultralytics>=8.0.0
+opencv-python>=4.7.0
+torch>=2.0.0
+numpy>=1.23.0
+pyyaml>=6.0
+
+# ---------------------------------------------------------------------------
+# Raspberry Pi (raspberry_pi/motor_control_server.py) needs only:
+#   gpiozero
+# Install it on the Pi separately:  pip install gpiozero
+# ---------------------------------------------------------------------------
